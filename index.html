@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="cal.js"></script>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body style="background-color: black">
+  <center>
+    <h1 id="hed">CALCULATOR</h1>
+    <div class=" first">
+        <form >
+            <table>
+                <tr>
+            <td><input type="text" id="result"></td>
+        </tr>
+        <tr>
+          <td><input type="button" id="val1" value="1" onclick="cal('1')">
+          <input type="button" id="val2" value="2" onclick="cal('2')">
+          <input type="button" id="val3" value="3"onclick="cal('3')">
+          <input type="button" id="add" value="+" onclick="cal('+')"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" id="val4" value="4" onclick="cal('4')">
+            <input type="button" id="val5" value="5" onclick="cal('5')">
+            <input type="button" id="val6" value="6"onclick="cal('6')" >
+            <input type="button" id="sub" value="-" onclick="cal('-')"></td>
+  
+          </tr>
+          <tr>
+            <td><input type="button" id="val7" value="7" onclick="cal('7')">
+            <input type="button" id="val8" value="8" onclick="cal('8')">
+            <input type="button" id="val9" value="9" onclick="cal('9')">
+            <input type="button" id="mul" value="*" onclick="cal('*')"></td>
+          </tr>
+          <tr>
+            <td><input type="button" id="val0" value="0" onclick="cal('0')">
+            <input type="button" id="div" value="/" onclick="cal('/')">
+            <input type="button" id="eql" value="=" onclick="res('=')">
+            <input type="button" id="bc" value="BC" onclick="back()"></td>
+  
+          </tr>
+          <tr>
+            <td ><button id="cl" onclick="cle()" >Clear</button></td>
+        </tr>
+        </table>
+        </form>
+    </div>
+    </center>> 
+</body>
+</html>
